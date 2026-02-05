@@ -27,7 +27,7 @@ To compile the project, run:
 ```bash
 make processor
 
-## **Usage**
+## Usage
 Read from standard input and write to standard output:
 
 ./processor < test.txt > out.txt
