@@ -25,8 +25,19 @@ concepts including memory management, data structures, and file I/O.
 ## Build
 To compile the project, run:
 ```bash
-make project3
+make processor
 
-##Usage
-./
-.
+## **Usage**
+Read from standard input and write to standard output:
+
+./processor < test.txt > out.txt
+
+
+Read from a file and enable sorting and ID assignment:
+
+./processor -i test.txt -s -l
+
+
+Write output to a file:
+
+./processor -i test.txt -o results.txt
